@@ -1,0 +1,18 @@
+def main():
+    names = ("Alice", "Bob", "Charlie")
+    scores = (85, 90, 78)
+
+    print("Using enumerate:")
+    for i, name in enumerate(names):
+        print(f"{i}: {name}")
+
+    print("\nUsing zip:")
+    for name, score in zip(names, scores):
+        print(f"{name} scored {score}")
+
+    print("\nReversed names:", list(reversed(names)))
+    print("Sorted scores:", sorted(scores))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,13 @@
+def main():
+    text = "Hello, World!"
+    print("Original text:", text)
+    print("lowercase:", text.lower())
+    print("uppercase:", text.upper())
+    print("replace 'world' with 'python':", text.replace("World", "Python"))
+    print("find 'world':", text.find("world"))
+    print("split:", text.split())
+    print("start with 'H'?", text.startswith('H'))
+    print("end with 'd'?", text.endswith('d'))
+    
+if __name__ == "__main__":
+    main()

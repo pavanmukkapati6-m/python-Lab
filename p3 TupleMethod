@@ -1,0 +1,9 @@
+def main():
+    tup = (1, 2, 3, 4, 5)
+    print("original tuple:", tup)
+    print("count of 2:", tup.count(2))
+    print("index of 4:", tup.index(4))
+
+
+if __name__ == "__main__":
+    main()

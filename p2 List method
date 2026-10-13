@@ -1,0 +1,28 @@
+def main():
+    fruits = ["apple", "banana", "cherry"]
+    print("original list:", fruits)
+
+    fruits.append("orange")
+    print("after append:", fruits)
+
+    fruits.insert(1, "mango")
+    print("after insert at index 1:", fruits)
+
+    fruits.remove("banana")
+    print("after removing 'banana':", fruits)
+
+    fruits.pop()
+    print("after popping last element:", fruits)
+
+    fruits.sort()
+    print("after sort:", fruits)
+
+    fruits.reverse()
+    print("after reverse:", fruits)
+
+    print("index of 'mango':", fruits.index("mango"))
+    print("count of 'apple':", fruits.count("apple"))
+
+
+if __name__ == "__main__":
+    main()

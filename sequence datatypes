@@ -1,0 +1,14 @@
+def main():
+    seq = [10,20,30,40,50]
+    print("original sequence:",seq)
+    print("first element:",seq[0])
+    print("Last element:",seq[-1])
+    print("Sliced(1:4):",seq[1:4])
+    print("Is 30 in sequence?",30 in seq)
+    print("Length of sequence:",len(seq))
+    print("Max value:",max(seq))
+    print("min value:",min(seq))
+
+if __name__ == "__main__":
+    main() 
+    
